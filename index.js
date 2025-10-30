@@ -6,7 +6,7 @@ import { join, resolve } from 'path';
 import pc from 'picocolors';
 
 // Allow local template for testing via environment variable
-const TEMPLATE_REPO = process.env.PROTOBOX_TEMPLATE || 'github:toddmoy/protobox';
+const TEMPLATE_REPO = process.env.PROTOBOX_TEMPLATE || 'github:toddmoy/protobox#master';
 
 async function main() {
   const args = process.argv.slice(2);
