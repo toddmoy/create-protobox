@@ -1,6 +1,6 @@
 {
   "name": "create-protobox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a new Protobox project - A React prototyping boilerplate with Vite, shadcn/ui, and Tailwind CSS",
   "type": "module",
   "bin": {
