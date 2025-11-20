@@ -2,7 +2,7 @@
 
 Scaffold a new [Protobox](https://github.com/toddmoy/protobox) project with one command.
 
-Protobox is a React prototyping boilerplate built with Vite, shadcn/ui (34 components), Tailwind CSS, React Router, and TypeScript. Perfect for rapid prototyping and experimentation.
+Protobox is a React prototyping boilerplate built with Vite, shadcn/ui, Tailwind CSS, React Router, and TypeScript. Perfect for rapid prototyping and experimentation.
 
 ## Usage
 
