@@ -71,6 +71,14 @@ async function main() {
       writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2) + '\n');
     }
 
+    // Update <title> tag in index.html with new project name
+    const indexHtmlPath = join(targetDir, 'index.html');
+    if (existsSync(indexHtmlPath)) {
+      const html = readFileSync(indexHtmlPath, 'utf-8');
+      const updated = html.replace(/<title>[^<]*<\/title>/, `<title>${projectName}</title>`);
+      writeFileSync(indexHtmlPath, updated);
+    }
+
     console.log();
     console.log(pc.green('✔'), 'Project created successfully!');
     console.log();
